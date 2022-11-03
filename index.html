@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/885ba89ef7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png" class="logo"> -->
+                    <ul id="sidemenu">
+                    <li><a href="#header">Home</a></1i>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#Services">Extracurricular Activities</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav> 
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Aashish Tudu</span> <br> From India</h1>
+            </div>
+        </div>
+    </div>
+    <!--==============about me=======================-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="column1">
+                    <img src="images/giphy (3).gif">
+                </div> 
+                <div class="column2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p>Hello folks!
+                        <br>
+                        <br>
+                        I am Aashish Tudu, currently in pre-final year of B.Tech & M.Tech in Mechanical Engineering at Indian Institute Of Technology Bhubaneshwar.
+                        <br>
+                        <br>
+                        I am into Front End Web Development and i am comfortable with working on Javascript,HTML/CSS. I love to solve real-life problems and improve user experience. Apart from coding you can find me in the gym or playing sports.</p>
+                    
+                        <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                    
+                        <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                        <li><span>Programming Languages</span><br>C/C++, Python (Basics), HTML, CSS, JavaScript </li>
+                        <li><span>Technology/Frameworks</span><br>Bootstrap, React </li>
+                        <li><span>Tools and Technologies</span><br>VS Code, MS Word</li>
+                        </ul>
+                        </div>
+
+                        
+                        <!-- <div class="tab-contents" id="experience">
+                        <ul>
+                        <li><span>2021 - Current</span><br>UI/UX Design Training at ET Institute</li>
+                        <li><span>2019 - 2021</span><br>Team lead at StarApp LLC.</li>
+                        <li><span>2017 - 2019</span><br>UI/UX Design Executive at CoinDigital Ltd.</li>
+                        <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                        </ul>
+                        </div> -->
+                    
+
+                        <div class="tab-contents" id="education">
+                        <ul>
+                        <li><span>2018-2023</span><br>B.Tech in Mechanical Engineering & M.Tech in System Design got [7.21 CGPA (up to 8th Sem)]. </li>
+                        <li><span>2018</span><br>CBSE (XII) from Sri Chaitanya Techno School, Visakhapatnam got [84%].</li>
+                        <li><span>2016</span><br>CBSE (X) from Oak Grove School, Dehradun got [95%]. </li> 
+                        </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+
+<!-------------------------------portfolio-------------------------------->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/qwe.jpg">
+                        <div class="layer">
+                            <h3>Cryptocurrency App</h3>
+                                <p>The app that help you watch different Cryptocurrency market price,their market price chart for various timeline and recent crypto news.</p>
+                                <a href="https://cryptopunk1.netlify.app" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/wert.jpg">
+                        <div class="layer">
+                            <h3>Movie App</h3>
+                                <p>Here you can check IMDB rating, further releasing episodes, Cast, etc. for different movies and Web Series </p>
+                                <a href="https://movieapplication1.netlify.app" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/getasset_650x800.jpg">
+                        <div class="layer">
+                            <h3>Online Marketplace App</h3>
+                                <p>The app helps you connect with different people and trade various items.</p>
+                                <br>
+                                <p>(Ongoing)</p>
+                                <i class="fa-regular fa-link-simple-slash"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          <!---------------------services------------------------->
+
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">Extracurricular Activities</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-futbol"></i>
+                    <h2>Sports</h2>
+                    <ul>
+                    <li>Participated in various Inter college football competitions as a part of the football team at IIT Bhubaneshwar.</li>
+                    <li>Obtained 3rd position in High Jump in district level, (Dehradun) at under 16 age group.</li>
+                    </ul>
+                    
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-paintbrush"></i>
+                    <h2>FineArts and Design</h2>
+                    <ul>
+                        <li>An active member of Kalakriti, the Fine-Arts society of IIT Bhubaneswar.</li>
+                        <li>Went till the final round of the oil-canvas Arts competition conducted by Uttarakhand Power Corporation Limited (UPCL) </li>
+                    </ul>
+                    
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Competative Coding</h2>
+                    <ul>
+                        <li>Interested in competitive coding.</li>
+                        <li>Maximum Rating at Codeforces(1014).</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--==========================contact======================================-->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>abt10@iitbbs.ac.in</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7364067011</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/barun.tudu.12"><i class="fab fa-facebook"></i></a>
+                        <a href="https://github.com/aashishtudu"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/aashishtudu11/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/aashish-barnabas-tudu-9626951ba/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                
+                        <div>
+                         <a href="images/Aashish_tudu_resume.pdf" download class="btn btn2">Download CV</a>
+                        </div>
+                </div> 
+                  
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>               
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        </div>
+    </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2022 Aashish Tudu </p>
+        </div>
+    </div>
+
+
+    <!-------------------!scrpt------------------------------>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            } 
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab"); I
+}
+    </script>
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu(){
+        sidemeu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz07FtEQP0YAecsdWz0r2LBwyVGcQNbN_Ntt1Renq00q8ueYlP_wqmzizSnrPQSpDI7Gw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+            msg.innerHTML = ""
+            },5000)
+                form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
